@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Aidan - 3D Printing</title>
+    </head>
+    <body>
+        <h1>My 3D Printed Models</h1>
+
+        <div id="stl_div_1" style="width:500px;height:500px;margin:0 auto;"></div>
+
+        <script src="stl_viewer/stl_viewer.min.js"></script>		
+        <script>
+            var stl_viewer=new StlViewer
+            (
+                document.getElementById("stl_div_1"),
+                {
+                    models:
+                    [
+                        {filename:"test.stl"}
+                    ]
+                }
+            );
+        </script>
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
